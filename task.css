@@ -1,0 +1,143 @@
+#div1{
+    height: 400px;
+    width: 350px;
+    /* background-color: aquamarine; */
+    border: 0.5px rgb(185, 177, 177) solid;
+    
+}
+#insta{
+    width: 202px;
+    height: 120px;  
+}
+#inputs{
+    margin-top: -25px;
+}
+#username{
+    padding: 10px;
+    width: 238px;
+    border-radius: 3px;
+    border:1px rgb(185, 177, 177) solid;
+}
+#password{
+    padding: 10px;
+    width: 238px;
+    border-radius: 4px;
+    border:1px rgb(185, 177, 177) solid;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+#btn1{
+    padding: 10px;
+    width: 264px;
+    background-color:rgb(2 154 253);
+    color: white; 
+    border-radius: 7px; 
+    border:1px darkcyan solid;
+}
+#one{
+    width: 118px;
+    margin-left: 37px;
+    margin-top: -24px;
+    color: rgb(223, 217, 217);
+    
+}
+#two{
+    width: 118px;
+    margin-left: 199px;
+    margin-top: -9px;
+    color: rgb(223, 217, 217);
+}
+#or{
+    text-align: center;
+    color: rgb(93, 91, 91);
+    margin-left: 5px;
+}
+#facebook{
+    height: 15px;
+    width: 15px;
+    margin-bottom: -3px;
+}
+#facelog{
+    text-decoration: none;
+    margin-top: 80px;
+    color: rgb(6, 42, 65);
+    font-weight: bold;
+}
+/* #facelog:hover{ */
+    /* text-decoration-line: underline; */
+        /* ********************************** text-decoration-style:wavy;***************************************** */
+/* } */
+#forgot{
+    color:rgb(58, 46, 227) ;
+    text-decoration: none;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+}
+#forgot:hover{
+    text-decoration: underline;
+}
+::placeholder{
+    color:rgb(185, 177, 177) ;
+}
+input:focus::placeholder {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+#div2{
+    height: 60px;
+    width: 350px;
+    /* background-color: aquamarine; */
+    border: 0.5px rgb(185, 177, 177) solid;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+#account{
+    margin-bottom: 90px;
+    color:rgb(6, 42, 65) ;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+#signup{
+    text-decoration: none;
+    color: rgb(5 146 238);
+    font-weight: bold;   
+}
+#signup:hover{
+    text-decoration:underline;
+}
+#imgapp{
+    height: 50px;
+    width:290px;
+    
+
+}
+
+#info{
+    text-decoration: none;
+    word-spacing: 20px;
+    letter-spacing: -1px;
+    color: rgb(28, 53, 108);
+    font-weight: 570;
+    /* font-weight:bolder; */
+}
+
+#last{
+    color: rgb(185, 177, 177);
+    
+}
